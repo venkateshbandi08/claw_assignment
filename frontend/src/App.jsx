@@ -9,7 +9,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Landing from "./pages/landingPage/Landing";
 import EventDetails from "./pages/eventDetailsPage/EventDetails";
 
-export const baseUrl = "http://localhost:4000";
+export const baseUrl = "https://claw-event-management-backend.onrender.com";
 const userToken = sessionStorage.getItem("user-token");
 
 const App = () => {
