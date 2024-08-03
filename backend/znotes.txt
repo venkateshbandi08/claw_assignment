@@ -1,0 +1,31 @@
+-> use supabase for auth
+
+-> models for :
+    - users
+    - events
+    - sessions
+
+-> Implement user registration and login using Supabase.
+
+-> Event management :
+  * Allow users to create, read, update, and delete events.
+  * Each event should have a name, date, location, and description.
+  * Integrate with a weather API to fetch and display weather information for event locations.
+
+-> Session management :
+  * Generate and manage user sessions upon login.
+  * Record session instances (login time, logout time, IP address) in MongoDB.
+
+-> API Endpoints:
+  * POST /register: Register a new user.
+  * POST /login: Log in an existing user and create a session.
+  * POST /events: Create a new event.
+  * GET /events: Retrieve all events for the logged-in user.
+  * PUT /events/:id: Update an event by ID.
+  * DELETE /events/:id: Delete an event by ID.
+  * GET /sessions: Retrieve all user sessions.
+  * GET /weather/:location: Fetch weather information for a given location.
+
+-> Deploy the backend on Render.
+  * Provide API documentation with example requests and responses.
+  * Document deployment steps and provide links to the deployed applications.

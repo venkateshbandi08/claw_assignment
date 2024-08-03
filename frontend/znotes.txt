@@ -1,0 +1,1 @@
+change input to password in register/login pages

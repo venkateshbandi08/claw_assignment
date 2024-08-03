@@ -1,0 +1,46 @@
+.events-page-content {
+  padding: 2rem;
+  overflow-y: auto;
+}
+
+.events-container {
+  display: flex;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  /* overflow-y: auto; */
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+.event-container {
+  border: 1px solid black;
+  width: 300px;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background-color: lightcyan;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.event-container:hover {
+  background-color: lightblue;
+  transform: scale(1.05);
+}
+
+.single-line {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+.btns-container {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: -5px;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1rem;
+  background-color: lightgray;
+}
